@@ -29,8 +29,7 @@ function Home() {
               <Newsletter />
               <p></p>
               <h5>
-                <FaGifts /> Register now to get 4000 Methaptamin (MTTP) in
-                rewards
+                <FaGifts /> Register now to benefited from our newest reward loyalty program
               </h5>
               <br></br>
               <p>
@@ -39,8 +38,6 @@ function Home() {
               <GoogleCard />
             </div>
             <div className="col-lg-6">
-              <PriceCard />
-              <br></br>
               <NewsCard />
             </div>
           </div>
@@ -52,9 +49,6 @@ function Home() {
           </div>
         </div>
         <br></br>
-        <div className="container">
-          <FaQ />
-        </div>
 
         <div className="container">
           <hr></hr>

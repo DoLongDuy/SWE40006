@@ -13,16 +13,7 @@ function TradePage() {
   return (
     <div className={`mx-2 ${themeClass}`}>
       <AssetWrapper />
-      <Row>
-        <Col>
-          <h2 className="text-center fw-bold">Transaction History</h2>
-        </Col>
-      </Row>
-      <Row>
-        <Col>
-          <TradingHistoryTable data={historyData} />
-        </Col>
-      </Row>
+      
     </div>
   );
 }

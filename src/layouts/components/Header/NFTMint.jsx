@@ -45,7 +45,7 @@ function NFTMintButton() {
       className="navbarBoxButton button-link"
       onClick={handleButtonClick}
     >
-      {isConnected ? "MINT NOW" : "CONNECT WALLET"}
+      {isConnected ? "Not IN" : "User Do Long Duy"}
     </div>
   );
 }

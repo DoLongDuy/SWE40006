@@ -14,7 +14,7 @@ function Profile() {
                 <div className="card mb-4">
                   <div className="card-body text-center">
                     <img
-                      src="https://mahou-bucket.s3.amazonaws.com/magicology/mah_anisphia.jpg"
+                      src="https://avatars.githubusercontent.com/u/146762887?v=4"
                       alt="avatar"
                       className="rounded-circle img-fluid"
                       style={{
@@ -23,21 +23,12 @@ function Profile() {
                         objectFit: "cover",
                       }}
                     />
-                    <h5 className="my-3">Anisphia</h5>
+                    <h5 className="my-3">Duy</h5>
                     <p className="text-muted mb-1">Full Stack Developer</p>
                     <p className="text-muted mb-4">
                       Bay Area, San Francisco, CA
                     </p>
                     <div className="d-flex justify-content-center mb-2">
-                      <button type="button" className="btn btn-primary">
-                        Follow
-                      </button>
-                      <button
-                        type="button"
-                        className="btn btn-outline-primary ms-1"
-                      >
-                        Message
-                      </button>
                     </div>
                   </div>
                 </div>
@@ -47,7 +38,7 @@ function Profile() {
                       <li className="list-group-item d-flex justify-content-between align-items-center p-3">
                         <i className="fas fa-globe fa-lg text-warning"></i>
                         <p className="mb-0">
-                          https://github.com/mahou-anisphia
+                          https://github.com/DoLongDuy
                         </p>
                       </li>
                       <li className="list-group-item d-flex justify-content-between align-items-center p-3">
@@ -55,14 +46,7 @@ function Profile() {
                           className="fab fa-github fa-lg"
                           style={{ backgroundColor: "#333333" }}
                         ></i>
-                        <p className="mb-0">anisphia_hate_coins</p>
-                      </li>
-                      <li className="list-group-item d-flex justify-content-between align-items-center p-3">
-                        <i
-                          className="fab fa-twitter fa-lg"
-                          style={{ backgroundColor: "#55acee" }}
-                        ></i>
-                        <p className="mb-0">@nocoinformahou</p>
+                        <p className="mb-0">something_something</p>
                       </li>
                       {/* <li className="list-group-item d-flex justify-content-between align-items-center p-3">
                         <i
@@ -91,7 +75,7 @@ function Profile() {
                       </div>
                       <div className="col-sm-9">
                         <p className="text-muted mb-0">
-                          Anisphia Wynn Palettia
+                          Do Long Duy
                         </p>
                       </div>
                     </div>
@@ -102,7 +86,7 @@ function Profile() {
                       </div>
                       <div className="col-sm-9">
                         <p className="text-muted mb-0">
-                          lycoreco2005@gmail.com
+                          someone_something@gmail.com
                         </p>
                       </div>
                     </div>
@@ -112,16 +96,7 @@ function Profile() {
                         <p className="mb-0">Phone</p>
                       </div>
                       <div className="col-sm-9">
-                        <p className="text-muted mb-0">(097) 234-5678</p>
-                      </div>
-                    </div>
-                    <hr></hr>
-                    <div className="row">
-                      <div className="col-sm-3">
-                        <p className="mb-0">Mobile</p>
-                      </div>
-                      <div className="col-sm-9">
-                        <p className="text-muted mb-0">(098) 765-4321</p>
+                        <p className="text-muted mb-0">(099) 024-9696</p>
                       </div>
                     </div>
                     <hr></hr>
@@ -131,7 +106,7 @@ function Profile() {
                       </div>
                       <div className="col-sm-9">
                         <p className="text-muted mb-0">
-                          Bay Area, San Francisco, CA
+                          Some Area, Some City, Some Country
                         </p>
                       </div>
                     </div>
@@ -147,22 +122,47 @@ function Profile() {
                           </span>{" "}
                           {/* Privilege */}
                         </p>
-                        <p className="mb-1" style={{ fontSize: ".77rem" }}>
-                          Trade Progress
-                        </p>
-                        <div
-                          className="progress rounded"
-                          style={{ height: "5px" }}
-                        >
-                          <div
-                            className="progress-bar"
-                            role="progressbar"
-                            style={{ width: "80%" }}
-                            aria-valuenow="80"
-                            aria-valuemin="0"
-                            aria-valuemax="100"
-                          ></div>
+                        <div className="row">
+                          <div className="col-sm-3">
+                            <p className="mb-1" style={{ fontSize: "0.85rem" }}>Current Points</p>
+                          </div>
+                          <div className="col-sm-9">
+                            <p className="text-muted mb-1" style={{ fontSize: "0.85rem" }}>
+                              25389
+                            </p>
+                          </div>
                         </div>
+                        <div className="row">
+                          <div className="col-sm-3">
+                            <p className="mb-1" style={{ fontSize: "0.85rem" }}>Current Tier</p>
+                          </div>
+                          <div className="col-sm-9">
+                            <p className="text-muted mb-1" style={{ fontSize: "0.85rem" }}>
+                              Gold
+                            </p>
+                          </div>
+                        </div>
+                        <div className="row">
+                          <div className="col-sm-3">
+                            <p className="mb-1" style={{ fontSize: "0.85rem" }}>Next tier progress</p>
+                          </div>
+                          <div className="col-sm-9">
+                              <div
+                              className="progress rounded"
+                              style={{ height: "5px" }}
+                            >
+                              <div
+                                className="progress-bar"
+                                role="progressbar"
+                                style={{ width: "80%" }}
+                                aria-valuenow="80"
+                                aria-valuemin="0"
+                                aria-valuemax="100"
+                              ></div>
+                            </div>
+                          </div>
+                        </div>
+                        
                         {/* <p className="mt-4 mb-1" style={{ fontSize: ".77rem" }}>
                           Website Markup
                         </p>

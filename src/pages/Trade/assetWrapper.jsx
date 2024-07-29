@@ -23,11 +23,11 @@ const AssetWrapper = () => {
 
   return (
     <Container className="justify-content-center text-center">
-      <h2 className="fw-bold">Available Tokens</h2>
+      <h2 className="fw-bold">Available Products</h2>
       {/* Search Bar */}
       <InputGroup className="mb-3">
         <FormControl
-          placeholder="Search Tokens..."
+          placeholder="Search Products..."
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
         />

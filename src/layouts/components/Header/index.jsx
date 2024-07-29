@@ -23,15 +23,14 @@ function Header() {
           }}
         >
           <img
-            src={images.logo}
+            src={"https://i.gyazo.com/09d43dcaa09861ae87d8e723948011f8.png"}
             alt="Logo"
             style={{
-              height: "40px",
-              width: "40px",
+              height: "60px",
+              width: "150px",
               marginRight: "5px",
             }}
           />
-          Crystal Swap
         </Link>
 
         {/* Settings Icon Button for Smaller Screens */}
@@ -57,7 +56,7 @@ function Header() {
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/trade">
-                Trade
+                Product
               </Link>
             </li>
             <li className="nav-item">
@@ -65,23 +64,8 @@ function Header() {
                 Profile
               </Link>
             </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/project">
-                Our Project
-              </Link>
-            </li>
             <li className="nav-item" onClick={toggleTheme}>
               <button className="nav-link">Toggle Theme</button>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link text-success" to="/login">
-                Login
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link text-danger" to="/register">
-                Register
-              </Link>
             </li>
             <li className="nav-item">
               <NFTMintButton /> {/* Include the NFTMintButton component */}

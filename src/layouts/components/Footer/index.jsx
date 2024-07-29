@@ -18,11 +18,9 @@ function Footer() {
       <div className="container">
         <div className="row text-center">
           <div className="col-md-4">
-            <h4>Crystal Swap</h4>
+            <h4>Coop Mart</h4>
             <p>
-              Revolutionizing decentralized trading with Crystal Swap, where
-              users experience seamless and secure transactions on our
-              blockchain platform.
+              Revolutionizing sales for vienamese
             </p>
           </div>
           <div className="col-md-4">

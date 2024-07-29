@@ -17,8 +17,6 @@ const DisplayAssetRow = ({ rowData, searchTerm }) => {
               imageSrc={card.imageSrc}
               name={card.name}
               price={`${card.price}`}
-              tvl={`TVL: ${card.tvl}`}
-              volume={`Volume: ${card.volume}`}
               onBuyClick={() => console.log(`Buying ${card.name}`)}
             />
           </Col>
